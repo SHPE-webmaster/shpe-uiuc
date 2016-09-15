@@ -52,41 +52,7 @@ For a wonderful introduction to Rails you should look at Hartl's book: https://w
 The web dev committee uses ZenHub as a project management tool. This tool allows us to assign work more similiarly to a Sprint format. You'll simply need to install a Chrome extension (and use chrome) from this website https://www.zenhub.io/. Then visit this repository again. From there you'll see new pages such as Boards and Burndown on the right hand side. 
 
 # Setting up this Repository <a name="repo_setup"/> 
-
-Open a terminal and navigate to where you would like to store your copy of the project. Then clone the project using either: 
-
-For SSH:
-$ git clone git@github.com:rayfarias56/shpe.git
-
-For HTTPS:
-$ git clone https://github.com/rayfarias56/shpe.git
-
-Then to move into the SHPE folder, allow execute permissions on the setup script and then run the project's setup script execute the following three commands. 
-
-$ cd shpe
-
-$ chmod 777 setup/setup_shpe_dev.sh
-
-$ setup/setup_shpe_dev.sh
-
-The setup script sets up necessary dependencies, node.js, Rails, RVM, Ruby, creates and seeds a development datebase and then starts a test server with "$ rails s". 
-
-Test by going to 0.0.0.0:3000 (localhost, i.e. your computer, port 3000) in your browser. You should see the shpe website load!
-
-ctrl-c to close the dev server
-
-Now lets create a local branch to work on.  
-
-$ git branch --track develop origin/develop
-
-$ git checkout develop
-
-And then we will change your settings so that you only push your develop branch to the repository when you're finished adding changes. 
-
-$ git config --global push.default upstream
-
-Contact Sean Freiburg(seanfreiburg@gmail.com) or Ray Farias (rayfarias56@gmail.com) for support.
-
+--ADD STUFF HERE ON HOW TO SET THIS REPO UP--
 
 # Attention Devs <a name="dev_note"/> 
 
